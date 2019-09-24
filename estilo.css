@@ -1,70 +1,70 @@
-cuerpo, div, forma h1,, fieldset, entrada, texto {
-margen: 0; relleno: 0; frontera: 0; esquema: ninguno;
+body, div, form, fieldset, input, textarea {
+    margin: 0; padding: 0; border: 0; outline: none;
 }
 html {
-Altura: 100 %;
+    height: 100%;
 }
-cuerpo {
-fondo: #728 eaa;
-fondo :-moz-lineal-degradado (top, #25303 c 0%, #728 eaa 100 %); /* Firefox */
-fondo :-webkit-gradiente (lineal, superior izquierda, fondo izquierdo, parada de color (0 %,# 25303 c), parada de color (100 %,# 728 eaa)); /* webkit */
-Fuente-familia: sans-serif;
+body {
+    background: #728eaa;
+    background: -moz-linear-gradient(top, #25303c 0%, #728eaa 100%); /* Firefox */
+    background: -webkit-gradient (linear, left top, left bottom, color-stop(0%,#25303c), color-stop(100%,#728eaa)); /* webkit */
+    font-family: sans-serif;
 }
 #contact {
-Ancho: 430 px; margen: 60 px auto; relleno: 60 px 30 px;
-fondo: #c9d0de; frontera: 1 px sólido #e1e1e1;
-- moz-caja-sombra: 0 px 0 px 8 px #444;
--webkit-box-shadow: 0px 0px 8px #444;
+    width: 430px; margin: 60px auto; padding: 60px 30px;
+    background: #c9d0de; border: 1px solid #e1e1e1;
+    -moz-caja-sombra: 0px 0px 8px #444;
+    -webkit-box-shadow: 0px 0px 8px #444;
 }
 h1 {
-tamaño de fuente: 35 px; color: #445668; texto-transformar: mayúsculas;
-Texto-alinear: centro; margen: 0 0 35 px 0; texto-sombra: 0 px 1 px 0 px #f2f2f2;
+    font-size: 35px; color: #445668; text-transform: uppercase;
+    text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
 }
-etiqueta {
-flotador: izquierda; clara: izquierda; margen: 11 px 20 px 0 0; ancho: 95 px;
-texto de texto: derecha; tamaño de fuente: 16 px; color: #445668;
-texto de texto: mayúsculas; texto-sombra: 0 px 1 px 0 px #f2f2f2;
+label {
+    float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
+    text-align: right; font-size: 16px; color: #445668;
+    text-transform: uppercase; text-shadow: 0px 1px 0px #f2f2f2;
 }
-entrada {
-Ancho: 260 px; altura: 35 px; relleno: 5 px 20 px 0 px 20 px; margen: 0 0 20 px 0;
-fondo: #5 E768D;
-fondo :-moz-lineal-degradado (top, #546 A7F 0%, #5 E768D 20 %); /* Firefox */
-fondo :-webkit-gradiente (lineal, superior izquierda, fondo izquierdo, parada de color (0 %,# 546 A7F), parada de color (20 %,# 5 E768D)); /* webkit */
-radio de frontera: 5 px ;-moz-frontera-radio: 5 px ;-webkit-frontera-radio: 5 px;
-- moz-Caja-Sombra: 0 px 1 px 0 px #f2f2f2 ;- webkit-caja-sombra: 0 px 1 px 0 px #f2f2f2;
-Font-familia: sans-serif; tamaño de fuente: 16 px; color: #f2f2f2; texto-transformar: mayúsculas; texto-sombra: 0 px-1 px 0 px #334 f71 ;
+input {
+    width: 260px; height: 35px; padding: 5px 20px 0px 20px; margin: 0 0 20px 0;
+    background: #5E768D;
+    background :-moz-linear-gradient (top, #546A7F 0%, #5E768D 20%); /* Firefox */
+    background : -webkit-gradient(linear left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+    border-radius: 5px ;-moz-border-radius: 5px ; -webkit-border-radius: 5px;
+    - moz-box-shadow: 0px 1px 0px #f2f2f2; -webkit-box-shadow: 0px 1px 0px #f2f2f2;
+    font-family: sans-serif; font-size: 16px; color: #f2f2f2; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71;
 }
-Entrada ::- webkit-Entrada-Comodín {
-color: #a1b2c3; texto-sombra: 0 px-1 px 0 px #38506 b;
+input ::-webkit-placeholder {
+    color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
 }
-Entrada :- moz-comodín {
-color: #a1b2c3; texto-sombra: 0 px-1 px 0 px #38506 b;
+input :- moz-comodín {
+    color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
 }
 textarea {
-Ancho: 260 px; altura: 170 px; relleno: 12 px 20 px 0 px 20 px; margen: 0 0 20 px 0;
-fondo: #5 E768D;
-fondo :-moz-lineal-degradado (top, #546 A7F 0%, #5 E768D 20 %); /* Firefox */
-fondo :-webkit-gradiente (lineal, superior izquierda, fondo izquierdo, parada de color (0 %,# 546 A7F), parada de color (20 %,# 5 E768D)); /* webkit */
-radio de frontera: 5 px ;-moz-frontera-radio: 5 px ;-webkit-frontera-radio: 5 px;
-- moz-Caja-Sombra: 0 px 1 px 0 px #f2f2f2 ;- webkit-caja-sombra: 0 px 1 px 0 px #f2f2f2;
-Font-familia: sans-serif; tamaño de fuente: 16 px; color: #f2f2f2; texto-transformar: mayúsculas; texto-sombra: 0 px-1 px 0 px #334 f71 ;
+    width: 260px; height: 170px; padding: 12px 20px 0px 20px; margin: 0 0 20px 0;
+    background: #5E768D;
+    background :-moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* Firefox */
+    background :-webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    -moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;text-shadow: 0px -1px 0px #334f71;
+    font-family: sans-serif;font-size: 16px; color: #f2f2f2; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71;
 }
-Textarea ::- webkit-Entrada-Comodín {
-color: #a1b2c3; texto-sombra: 0 px-1 px 0 px #38506 b;
+textarea::-webkit-input-placeholder {
+    color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
 }
 texto :- moz-comodín {
-color: #a1b2c3; texto-sombra: 0 px-1 px 0 px #38506 b;
+    color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
 }
 input:focus, textarea:focus {
-fondo: #728 eaa;
-fondo :-moz-lineal-degradado (top, #668099 0%, #728 eaa 20 %); /* Firefox */
-fondo :-webkit-gradiente (lineal, izquierda izquierda, fondo izquierdo, parada de color (0 %,# 668099), color-parada (20 %,# 728 eaa)); /* webkit */
+    background: #728eaa;
+    background :-moz-linear-gradient (top, #668099 0%, #728eaa 20%); /* Firefox */
+    background :-webkit-gradient(linear, left top, left bottom, color-stop(0%,#668099), color-stop (20%,#728eaa)); /* webkit */
 }
-entrada [type=submit] {
-Ancho: 185 px; altura: 52 px; flotador: derecha; relleno: 10 px 15 px; margen: 0 15 px 0 0;
-Px 0 px 5 px px px px px 5 px px px px px px
-frontera: 1 px sólido #556 f 8c;
-fondo :-moz-lineal-degradado (top, #718 DA9 0%, #415 D79 100 %); /* Firefox */
-fondo :-webkit-gradiente (lineal, izquierda izquierda, fondo izquierdo, parada de color (0 %,# 718 DA9), color-parada (100 %,# 415 D79)); /* webkit */
-cursor: puntero;
+input[type=submit] {
+    width: 185px; height: 52px; float: right; padding: 10px 15px; margin: 0 15px 0 0;
+    -moz-box-shadow 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+    border: 1px solid #556f8c;
+    background:-moz-linear-gradient(top, #718DA9 0%, #415D79 100%); /* Firefox */
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
+    cursor: pointer;
 }
